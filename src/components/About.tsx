@@ -107,7 +107,7 @@ export default function About() {
         {/* Showcase Image Block */}
         <div className="mt-16 md:mt-24 w-full rounded-2xl overflow-hidden aspect-[16/6] bg-neutral-200 dark:bg-neutral-900 relative group border border-neutral-300/40 dark:border-neutral-800/40">
           <img
-            src="assets/profile.jpg"
+            src="assets/whatido.jpg"
             alt="Shamla Noufer - Design Studio Profile"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
             onError={(e) => {
@@ -123,7 +123,7 @@ export default function About() {
               Shamla Noufer — Profile Frame
             </span>
             <span className="text-[10px] font-mono tracking-wider mt-3 text-neutral-500 dark:text-neutral-500 uppercase border border-neutral-400/30 dark:border-neutral-800/60 px-3 py-1 rounded-full bg-white/40 dark:bg-black/40">
-              To replace this: Save your image as "assets/profile.jpg"
+              To replace this: Save your image as "assets/whatido.jpg"
             </span>
           </div>
         </div>
