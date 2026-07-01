@@ -101,7 +101,7 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     title: "Medicare — Clinic & Pharmacy Management System",
-    year: "2025 – 2026",
+    year: "2026 - ongoing",
     cats: ["UI/UX", "Web Application", "Freelance"],
     img: "assets/medicare.jpg",
     type: "Full-Stack Web Application",
@@ -123,7 +123,7 @@ export const PROJECTS: Project[] = [
   {
     id: 2,
     title: "Bambare — Travel Management System",
-    year: "2024 – 2025",
+    year: "2026 Feb - 2026 June",
     cats: ["Mobile App", "Ongoing", "Flutter"],
     img: "assets/bambare.jpg",
     type: "Cross-Platform Mobile Application",
@@ -142,7 +142,7 @@ export const PROJECTS: Project[] = [
   {
     id: 3,
     title: "QuantumForge Technologies — Security Assessment",
-    year: "2024",
+    year: "2026 Feb - 2026 June",
     cats: ["Security Assessment", "NIST", "OWASP"],
     img: "assets/security.jpg",
     type: "Enterprise Security Assessment & Remediation",
@@ -159,7 +159,7 @@ export const PROJECTS: Project[] = [
   {
     id: 4,
     title: "VaultX — Multi-Bank Account Management",
-    year: "2024",
+    year: "2025",
     cats: ["UI/UX Design", "Figma", "HCI"],
     img: "assets/vaultx.jpg",
     type: "UI/UX Design & HCI Case Study",
@@ -191,7 +191,7 @@ export const PROJECTS: Project[] = [
   {
     id: 7,
     title: "GlowGuide — Skincare Mobile Application",
-    year: "2024",
+    year: "2025",
     cats: ["Mobile App", "Android", "Java"],
     img: "assets/glowguide.jpg",
     type: "Native Android Application",
@@ -207,7 +207,7 @@ export const PROJECTS: Project[] = [
   {
     id: 8,
     title: "SLIIT City University Website Redesign",
-    year: "2023",
+    year: "2025",
     cats: ["UI/UX Case Study", "Redesign", "Figma"],
     img: "assets/sliit_redesign.jpg",
     type: "UI/UX Redesign & Information Architecture",
@@ -223,7 +223,7 @@ export const PROJECTS: Project[] = [
   {
     id: 9,
     title: "International Museum Network Design",
-    year: "2024",
+    year: "2025",
     cats: ["Networking", "Cisco"],
     img: "assets/museum_network.jpg",
     type: "Enterprise Network Design & Configuration",
@@ -242,7 +242,7 @@ export const PROJECTS: Project[] = [
   {
     id: 10,
     title: "Fuel Efficiency Statistical Analysis",
-    year: "2024",
+    year: "2025",
     cats: ["Data Analysis", "RStudio", "R"],
     img: "assets/fuel_analysis.jpg",
     type: "Data Science & Statistical Analysis",
@@ -275,7 +275,7 @@ export const PROJECTS: Project[] = [
   {
     id: 12,
     title: "Student Record Management System",
-    year: "2024",
+    year: "2025",
     cats: ["Web App", "Node.js", "MongoDB"],
     img: "assets/student_mgmt.jpg",
     type: "Web Application",
@@ -291,7 +291,7 @@ export const PROJECTS: Project[] = [
   {
     id: 13,
     title: "Professional Skills Portfolio",
-    year: "2024",
+    year: "2026",
     cats: ["Web Development", "Portfolio", "HCI"],
     img: "assets/portfolio.jpg",
     type: "Interactive Learning Portfolio",
