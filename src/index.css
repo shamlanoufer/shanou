@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "DM Sans", ui-sans-serif, sans-serif;
+  --font-serif: "DM Serif Display", "Playfair Display", Georgia, serif;
+  --font-mono: "Space Mono", monospace;
+  --font-display: "Syne", "Plus Jakarta Sans", sans-serif;
+  --font-inter: "Inter", "Plus Jakarta Sans", "DM Sans", sans-serif;
+  
+  --color-accent-orange: #853953;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1), color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow-x: hidden;
+  }
+
+  p {
+    font-family: var(--font-inter);
+  }
+
+  /* Custom Selection */
+  ::selection {
+    background-color: #853953;
+    color: #ffffff;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5);
+  border-radius: 999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.8);
+}
+
+/* Glassmorphism card utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass-panel {
+  background: rgba(26, 26, 24, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Text stroke utility for artistic headlines */
+.text-stroke {
+  -webkit-text-stroke: 1.5px #171717;
+  color: transparent !important;
+}
+
+.dark .text-stroke {
+  -webkit-text-stroke: 1.5px #f5f5f5;
+  color: transparent !important;
+}
+
+/* Hide default cursor on devices that support hover if custom cursor is active */
+@media (pointer: fine) {
+  body.has-custom-cursor,
+  body.has-custom-cursor * {
+    cursor: none !important;
+  }
+}
+
+/* Hardware-accelerated infinite marquee running entirely on GPU */
+@keyframes marquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-33.33%, 0, 0); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+

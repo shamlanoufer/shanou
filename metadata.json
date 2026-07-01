@@ -1,0 +1,6 @@
+{
+  "name": "Shamla Noufer Portfolio",
+  "description": "A highly interactive, modern, and sleek portfolio showcasing UI/UX design, front-end development, and HCI principles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
