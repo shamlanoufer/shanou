@@ -185,6 +185,17 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                   View Case Study (PDF)
                 </a>
               )}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-xs sm:text-sm px-5 py-3 rounded-full border border-neutral-200 dark:border-neutral-700 transition-all hover:scale-102"
+                >
+                  <ExternalLink size={15} />
+                  {project.linkLabel || "View Resource"}
+                </a>
+              )}
             </div>
 
           </div>

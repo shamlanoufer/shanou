@@ -106,8 +106,8 @@ export const PROJECTS: Project[] = [
     img: "assets/medicare.jpg",
     type: "Full-Stack Web Application",
     tech: ["Figma", "React", "TypeScript", "Vite", "React Router DOM", "TanStack Query", "React Hook Form", "Zod", "Tailwind CSS", "Recharts", "Node.js", "Express.js", "Prisma ORM", "PostgreSQL", "JWT", "SheetJS", "jsPDF", "Swagger"],
-    figmaLink: "https://www.figma.com/design/medicare-clinic-pharmacy",
-    githubLink: "https://github.com/shamlanoufer/medicare-system",
+    figmaLink: "https://www.figma.com/design/umRo3Ggfe7f90QPd05jkgd/Medicare?node-id=0-1&t=RQeks5rx2qIcujA3-1",
+    githubLink: "https://github.com/shamlanoufer/medicare.git",
     desc: "Designed and developed a comprehensive web-based Clinic & Pharmacy Management System to streamline clinic operations, medicine inventory management, patient billing, supplier management, and secure pharmacy workflows. The system digitizes the complete medicine lifecycle from supplier inventory imports to patient billing and token-based medicine distribution while providing real-time stock monitoring, reporting, and administrative management.",
     featured: true,
     highlights: [
@@ -173,23 +173,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 5,
-    title: "Sustainable Architecture Lab — Interactive Dashboard",
-    year: "2024",
-    cats: ["HCI", "Case Study", "Sustainability"],
-    img: "assets/sustainable_architecture_lab.jpg",
-    type: "HCI Case Study & Dashboard Design",
-    tech: ["Figma", "HCI Principles", "Sustainability Metrics", "Dashboard Architecture", "User Personas", "Heuristic Evaluation"],
-    pdfLink: "assets/Sustainable_Architecture_Lab_Case_Study.pdf",
-    desc: "Designed an interactive laboratory dashboard and conceptual system that monitors building sustainability metrics, energy efficiency, carbon footprint, and resource utilization using human-computer interaction (HCI) accessibility principles.",
-    highlights: [
-      "Developed high-fidelity wireframes and structured screens in Figma applying a grid-based dashboard layout for complex resource metrics.",
-      "Applied Fitts's Law and Hick's Law to optimize quick decision-making under high-volume laboratory and energy monitoring states.",
-      "Integrated visual metrics, real-time gauges, and interactive logs displaying water conservation, HVAC efficiency, and green energy indices.",
-      "Conducted user-centered design evaluations to ensure usability across both technical facility managers and non-technical laboratory staffs."
-    ]
-  },
-  {
     id: 6,
     title: "Aura & Co. — E-commerce Platform",
     year: "2024",
@@ -246,6 +229,9 @@ export const PROJECTS: Project[] = [
     type: "Enterprise Network Design & Configuration",
     tech: ["Cisco Packet Tracer", "VLANs", "EIGRP", "BGP", "Subnetting", "DHCP", "ACLs", "STP"],
     githubLink: "https://github.com/shamlanoufer/Museum-Network-Design.git",
+    pdfLink: "assets/museum_network.pdf",
+    link: "assets/museum_network.pkt",
+    linkLabel: "Download Packet Tracer File",
     desc: "Designed an enterprise-level network infrastructure for an international museum organization with multiple geographically distributed branches.",
     highlights: [
       "Designed a resilient multi-site topology securing inter-branch connectivity across international branches.",
@@ -262,6 +248,7 @@ export const PROJECTS: Project[] = [
     type: "Data Science & Statistical Analysis",
     tech: ["RStudio", "ggplot2", "dplyr", "Inferential Statistics", "Linear Regression", "Auto-MPG Dataset"],
     githubLink: "https://github.com/shamlanoufer/Statistical-Analysis-of-Factors-Influencing-Automobile-Fuel-Efficiency.git",
+    pdfLink: "assets/fuel_efficiency_analysis.pdf",
     desc: "Conducted statistical analysis on the Auto-MPG dataset to identify key factors influencing automobile fuel efficiency using R and ggplot2.",
     highlights: [
       "Performed data cleaning, missing value imputation, and preprocessing using dplyr and tidyr packages.",
